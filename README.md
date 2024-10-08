@@ -1,6 +1,15 @@
 ## LITA_CLASS_Documentation
 This is where I documented my first project while learning Data Analysis with Incubator Hub 😁
 
+### Outline
+
+[Tools Used](tools-used)
+
+[Data Cleaning and Preparations](data-cleaning-and-preparations)
+
+[Data Analysis](data-analysis)
+
+
 ---
 ### Tools Used
 -Microsoft excel [Download Here](https://www.microsoft.com/en-ng/)
@@ -23,3 +32,7 @@ This is where I documented my first project while learning Data Analysis with In
 ``` SQL
 SELECT * FROM TABLE1 WHERE CONDITION = TRUE
 ```
+
+|Heading1|Heading2|
+|--------|--------|
+|Table1|Table2|
