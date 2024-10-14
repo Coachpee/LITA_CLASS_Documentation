@@ -30,9 +30,9 @@ This project involves cleaning and preparing a set of data for analysis. Data cl
 
 ### Procedure
 
-1. Data loading and Inspection: The data from the source was downloaded and loaded into Excel spreadsheet for inspection. Afterwhich, the Data was inspected for errors such as typographical erors and inconsistencies such as differencies in formats. In a set of Data for the Scheduled Pioneeer Staff of a Company, we were able to eliminate 
+1. Data loading and Inspection: The data from the source was downloaded and loaded into Excel spreadsheet for inspection. Afterwhich, the Data was inspected for errors such as typographical erors and inconsistencies such as differencies in formats. In a set of Data for the Scheduled Pioneeer Staff of a Company, we were able to eliminate the unneccessary spaces and adjust the text format using the ```=UPPER ```, ```=LOWER```, ```=PROPER``` .and ```=TRIM``` functions. We also used the stated functions to generate a table containing the first names and surnames alone and we the use of ```=CONCATENATE```, we were able to generate the email addresses of each of the staff of the organization using their first names.
    
-2. Handling missing variables: We identified some missing records (Department Code, Purchase Date Code and Asset Category Code) in a set of Data for Asset Schedule. However, we used the ```=LEFT ``` , ```=RIGHT ``` , ```=MID ``` ,```=FIND ``` and ```=SEARCH ``` functions to extract the Data from the 'Codes' Column.
+2. Handling missing variables: We identified some missing records (Department Code, Purchase Date Code and Asset Category Code) in a set of Data for Asset Schedule. However, we used the ```=LEFT ``` , ```=RIGHT ``` , ```=MID ``` ,```=FIND ``` and ```=SEARCH ``` functions to extract the Data from the 'Codes' Column. Also, we were able to LookUp the values of the salary allowances of each staff of the organization from the Salary Structure Worksheet using the ```=VLOOKUP``` and ```=HLOOKUP```functions.
    
 4. Data cleaning and formatting
 
