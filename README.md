@@ -27,7 +27,9 @@ This project involves cleaning and preparing a set of data for analysis. Data cl
    
 2. Handling missing variables: We identified some missing records (Department Code, Purchase Date Code and Asset Category Code) in a set of Data for Asset Schedule. However, we used the ```=LEFT ``` , ```=RIGHT ``` , ```=MID ``` ,```=FIND ``` and ```=SEARCH ``` functions to extract the Data from the 'Codes' Column. Also, we were able to LookUp the values of the salary allowances of each staff of the organization from the Salary Structure Worksheet using the ```=VLOOKUP``` and ```=HLOOKUP```functions.
    
-3. Data Analysis
+3. Data Analysis: With the use of some Basic Excel Functions such as ```=SUM```, ```=AVERAGE``` , ```=MAX```, ```=MIN```,```-LARGE``` and ```=SMALL``` we were able to carry out some calculations to determine the total salaries, average salaries, maximum, minimum, nth highest and nth smallest salaries respectively. Also, using the 'Ifs' functions (SUMIFs,MAXIFs,MINIFs,and AVERAGEIFs) we were able to carry out some calculations using the aggregate functions for specific companies.
+
+4. Data Visualization
 
 ``` SQL
 SELECT * FROM TABLE1 WHERE CONDITION = TRUE
