@@ -4,16 +4,9 @@ This is where I documented my first project while learning Data Analysis with th
 ### Outline
 1. [Data Cleaning and Preparations](data-cleaning-and-preparations)
 
-[Tools Used](tools-used)
-
-[Data Analysis](data-analysis)
-
-
----
-
-  1. Data cleaning
-  2. Data Analysis
-  3. Data Visualization
+2. [Data Analysis](data-analysis)
+   
+3. [Data Visualization](data-visualization)
      
 -SQL
 
@@ -34,8 +27,6 @@ This project involves cleaning and preparing a set of data for analysis. Data cl
    
 2. Handling missing variables: We identified some missing records (Department Code, Purchase Date Code and Asset Category Code) in a set of Data for Asset Schedule. However, we used the ```=LEFT ``` , ```=RIGHT ``` , ```=MID ``` ,```=FIND ``` and ```=SEARCH ``` functions to extract the Data from the 'Codes' Column. Also, we were able to LookUp the values of the salary allowances of each staff of the organization from the Salary Structure Worksheet using the ```=VLOOKUP``` and ```=HLOOKUP```functions.
    
-4. Data cleaning and formatting
-
 ### Data Analysis
 
 ``` SQL
